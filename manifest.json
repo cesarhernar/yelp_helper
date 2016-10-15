@@ -1,0 +1,19 @@
+{
+  "name": "Append something to yelp title div",
+  "description": "Add test123 to yelp title ",
+  "version": "0.1",
+  "permissions": [
+    "activeTab",
+    "https://maps.googleapis.com/"
+  ],
+	"background": {
+		"scripts": ["background.js", "insert.js"],
+		"persistent": true
+	},
+
+  "browser_action": {
+		"default_icon": "icon2.png",
+    "default_title": "Append Test Text"
+  },
+  "manifest_version": 2
+}
